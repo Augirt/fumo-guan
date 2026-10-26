@@ -8,5 +8,6 @@
 主线、无尽、塔与演武均可在营地选择。
 
 部署：GitHub Pages，main 分支 / 根目录。
-index.html 为入口；asset*.webp 为运行时美术资源，需一起保留。
+index.html 为默认入口，内嵌美术资源，减少首次进入战斗时的网络请求。
+lite.html 为按需加载的轻量备用入口；asset*.webp 为其配套美术资源。
 更新日期：2026-10-26。
